@@ -3,15 +3,18 @@
 exports[`Controls matches snapshot 1`] = `
 <div
   className="controls panel"
+  data-testid="controls"
 >
   <button
     className="toggle-btn"
+    data-testid="control-lock-unlock"
     disabled={true}
   >
     Lock Gate
   </button>
   <button
     className="toggle-btn"
+    data-testid="control-open-close"
   >
     Close Gate
   </button>
