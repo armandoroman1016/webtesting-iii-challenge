@@ -8,11 +8,13 @@ Array [
   >
     <div
       className="led green-led"
+      data-testid="lockedStatus"
     >
       Unlocked
     </div>
     <div
       className="led green-led"
+      data-testid="openStatus"
     >
       Open
     </div>
