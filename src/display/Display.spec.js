@@ -38,7 +38,7 @@ describe('<Display />', () => {
         const locked = getByTestId('lockedStatus')
         const opened = getByTestId('openStatus')
         expect(locked.classList.contains('green-led')).toBe(true)
-        expect(locked.classList.contains('green-led')).toBe(true)
+        expect(opened.classList.contains('green-led')).toBe(true)
     })
 
 })
